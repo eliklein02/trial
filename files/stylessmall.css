@@ -1,0 +1,342 @@
+html {
+	margin: 0px;
+	height: 100px;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	font-family: "bauer_bodonibold";
+	background-color: darkgray;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.heroimg {
+	margin: 0px;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../47forphone.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+/*.heroimg:before {
+	margin:0px;
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../47forphone.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.herocontent {
+	padding-top: 35px;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ikastxt {
+	display: block;
+	margin-top: 65px;
+	font-size: 2.5em;
+	color: white;
+}
+
+.mofdtxt {
+	/* display: block; */
+	margin: 25px;
+	font-size: 2em;
+	color: white;
+}
+
+.homebuttons {
+	margin-top: 135px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.eachbutton {
+	padding: 10px;
+	border: 1px solid black;
+	/* display: inline; */
+	height: auto;
+	width: auto;
+	background-color: white;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+.eachbutton:visited {
+	background-color: white;
+}
+
+.eachbutton:hover {
+	background-color: darkgray;
+}
+
+.aboutcontainer {
+  /* background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../vecteezy_manhattan2.jpg"); */
+  background-size: cover;
+  background-position: center center;
+  background-color: lightgray;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	padding-top: 5vh;
+}
+
+.discovermore {
+	text-align: center;
+	font-size: 5vh;
+	margin: 0px;
+	margin-bottom: 5vh;
+}
+
+/*.aboutcontainer:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('../vecteezy_manhattan2.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+/* .fullwidth {
+  background-image: linear-gradient(to right, rgba(255, 255, 255,0.5), rgba(255, 255, 255,0.5));
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+  width: 80vw;
+}
+
+.wordshalf {
+  background-image: linear-gradient(to right, rgba(255, 255, 255,0.7), rgba(255, 255, 255,0.7));
+  display: flex;
+  align-items: center;
+  font-size: 1.9vw;
+  padding: 50px;
+  width: 50vw;
+  height: auto;
+}
+
+.imghalf {
+  padding: 50px;
+  width: 50vw;
+  height: auto;
+} */
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95vw;
+  padding: 5vw;
+  font-size: 1.5em;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.column1 {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+/*Gallery styles start here*/
+
+.gallerywrapper {
+  /* background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../vecteezy_manhattan.jpg"); */
+  background-size: cover;
+  background-position: center center;
+  background-color: darkgray;
+  background-attachment: fixed;
+	padding-top: 5vh;
+}
+
+.coog {
+	text-align: center;
+	font-size: 4vh;
+	margin: 0px;
+	margin-bottom: 5vh;
+}
+
+/*.gallerywrapper:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('../vecteezy_manhattan.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.gallery1 {
+  margin: 25px;
+  /* border: 1px solid #ccc; */
+	height: 35vh;
+  width: 75vw;
+	background-image: url("../vegas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gallery2 {
+  margin: 25px;
+  /* border: 1px solid #ccc; */
+	height: 35vh;
+  width: 75vw;
+	background-image: url("../tattyloop.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gallery3 {
+  margin: 25px;
+  /* border: 1px solid #ccc; */
+	height: 35vh;
+  width: 75vw;
+	background-image: url("../asseenin.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gallery4 {
+  margin: 25px;
+  /* border: 1px solid #ccc; */
+	height: 35vh;
+  width: 75vw;
+	background-image: url("../baseballpic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* div.gallery img {
+	height: 37.5vh;
+	width: 75vw;
+} */
+
+.gallerywithflex {
+  /* margin-top: 5vh; */
+	/* padding-top: 5vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.5)); */
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+	background-color:  #4d4d4d;
+	height: auto;
+	text-align: center;
+}
+
+.footertxt {
+	padding: 15px;
+	height: 100%;
+	width: 65%;
+	margin: 0 auto;
+	color: white;
+}
+
+.contacttxtbig {
+	margin: 0px;
+	font-size: 2.5em;
+}
+
+.contacttxtsmall {
+	font-size: 1.2em;
+}
+
+.contactinfo {
+	font-size: 1.2em;
+}
+
+.contactinfo a {
+	text-decoration: underline;
+	color: blue;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+ }
+
+@font-face {
+    font-family: 'bauer_bodonibold';
+    src: url('bauer_bodoni_bold-webfont.woff2') format('woff2'),
+         url('bauer_bodoni_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
